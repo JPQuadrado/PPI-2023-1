@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Curriculo Fulano de Tal</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form action="application/x-www-form-urlencoded" method="post" id="form1">
+                <fieldset class="form_wrapper">
+                    <legend>Informações de contato</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" id="tel" name="tel">
+                </fieldset>
+                
+
+                <fieldset class="form_wrapper">
+                    <legend>Você é um recrutador?</legend>
+                    <label><input type="radio" name="radio" value="yes"/>Sim</label>
+                    <label><input type="radio" name="radio" value="no" /> Não</label>
+                </fieldset>
+
+                <fieldset class="form_wrapper">
+                    <legend>Deixe seu feedback!</legend>
+                    <textarea name="comment" cols="50" rows="10" form="form1">O que achou do site?</textarea>
+                </fieldset>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <iframe 
+                id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="200"
+                height="200"
+                src="https://giphy.com/embed/mP8GermRyOFWV8PQeq">
+            </iframe>
+        </section>
+    </main>
+
+    <footer id="return">
+        <a href="index.html"> Retornar a página principal</a>
+    </footer>
+</body>
+</html>
