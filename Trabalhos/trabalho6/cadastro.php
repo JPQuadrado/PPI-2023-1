@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <form action="" method="post">
+    <form action="" method="post" enctype="multipart/form-data">
         <label for="usuario">Usuário</label>
         <input type="text" id="usuario" name="usuario" required /><br><br>
 
